@@ -22,8 +22,6 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps: 
-    # Task-1: Build Docker Image and push to Azure Container Registry ACR
-    task:
     - task: Docker@2
       inputs:
         containerRegistry: 'manual-aksdevopsacr-svc'
